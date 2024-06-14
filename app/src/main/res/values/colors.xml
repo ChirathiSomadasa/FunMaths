@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_pink">#FA37B8</color>
+    <color name="dark_pink">#B61058</color>
+    <color name="transparent">#74FFFFFF</color>
+    <color name="red_orange">#cef94147</color>
+    <color name="light_red">#f94147</color>
+    <color name="dark_red">#9cf94147</color>
+    <color name="light_white">#FAFAFA</color>
+    <color name="ash">#878787</color>
+    <color name="dark_green">#068C0B</color>
+    <color name="light_green">#9AE642</color>
+    <color name="bg_startColor">#F3C0CF</color>
+    <color name="dark_blue">#057887</color>
+    <color name="light_blue">#52EBFD</color>
+    <color name="dark_transparent">#60000000</color>
+    <color name="dark_yellow">#C87803</color>
+    <color name="light_yellow">#FABB00</color>
+    <color name="dark_purple">#710583</color>
+    <color name="light_purple">#F156FC</color>
+    <color name="score_blue">#047CDC</color>
+    <color name="best_pink">#f51dbf</color>
+    <color name="answer_green">#09c435</color>
+    <color name="question_color">#7E000000</color>
+
+
+</resources>

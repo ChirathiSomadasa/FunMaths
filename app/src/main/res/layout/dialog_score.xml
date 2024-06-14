@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_style">
+
+    <!-- Container for dialog content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- Title: Game Over -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/game_over"
+            android:textAlignment="center"
+            android:textColor="@color/ash"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- Display score -->
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/score_marks"
+            android:textAlignment="center"
+            android:textColor="@color/score_blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Display best score -->
+        <TextView
+            android:id="@+id/tv_best_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/best_score"
+            android:textAlignment="center"
+            android:textColor="@color/best_pink"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Display correct answer -->
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correct_answer"
+            android:textAlignment="center"
+            android:textColor="@color/answer_green"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Buttons container -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <!-- Home button -->
+            <RelativeLayout
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn"
+                    android:text="@string/menu_button"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!-- Replay button -->
+            <RelativeLayout
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/tv_replay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn"
+                    android:text="@string/replay_button"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

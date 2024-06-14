@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FunMaths</string>
+    <string name="ADDITION">addition</string>
+    <string name="SUBTRACTION">subtraction</string>
+    <string name="MULTIPLICATION">multiplication</string>
+    <string name="DIVISION">division</string>
+    <string name="question_no">question : 1</string>
+    <string name="score">Score: 0</string>
+    <string name="a">A:</string>
+    <string name="b">B:</string>
+    <string name="c">C:</string>
+    <string name="d">D:</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="score_marks">Score : 100</string>
+    <string name="best_score">Best : 452</string>
+    <string name="correct_answer">Answer : 452</string>
+    <string name="menu_button">Menu</string>
+    <string name="replay_button">Replay</string>
+    <string name="app_title">Fun Maths</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <!-- Container for the main content -->
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- High score text view -->
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:text="Fun Maths"
+            android:textAlignment="center"
+            android:textColor="@color/ash"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <!-- Container for choice buttons -->
+        <TextView
+            android:id="@+id/tvHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="High Score : 0"
+            android:textAlignment="center"
+            android:textColor="@color/ash"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/choice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="60dp"
+        android:paddingRight="20dp"
+        tools:ignore="MissingConstraints">
+
+
+        <!-- Addition button -->
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/add_btn"
+            android:drawableLeft="@drawable/plus"
+            android:drawablePadding="20dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="ADDITION"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Subtraction button -->
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sub_btn"
+            android:drawableLeft="@drawable/minus"
+            android:drawablePadding="20dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="SUBTRACTION"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Multiplication button -->
+        <Button
+            android:id="@+id/btn_multiply"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/mul_btn"
+            android:drawableLeft="@drawable/multiplication"
+            android:drawablePadding="20dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="MULTIPLICATION"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Division button -->
+        <Button
+            android:id="@+id/btn_division"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/div_btn"
+            android:drawableLeft="@drawable/division"
+            android:drawablePadding="20dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="DIVISION"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Quiz button -->
+        <Button
+            android:id="@+id/btn_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/quiz_btn"
+            android:drawableLeft="@drawable/quiz"
+            android:drawablePadding="20dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="QUIZ"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
